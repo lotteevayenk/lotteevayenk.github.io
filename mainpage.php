@@ -4,6 +4,6 @@
     <title>Main page</title>
   </head>
   <body>
-    <a>test</a>
+    <p>test</p>
   </body>
 </html>
