@@ -22,8 +22,18 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition-duration: 200ms;
 }
 
 .navbar ul li a:hover {
   background-color: darkcyan;
+}
+
+/*BODY*/
+
+#afb1 {
+  height: 234px;
+  padding: 10px;
+
+
 }
