@@ -3,6 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*NAVBAR*/
 .navbar ul {
   background-color: grey;
@@ -45,6 +49,25 @@ body {
 }
 
 #afb1 {
-  height: 240px;
+  width: 33%;
   padding: 10px;
+  float: left;
+}
+
+#afb2 {
+  width: 33%;
+  padding: 10px;
+  float: left;
+}
+
+#afb3 {
+  width: 33%;
+  padding: 10px;
+  float: left;
+}
+
+@media screen and (max-width:400px) {
+  .left, .main, .right {
+    width:100%;
+  }
 }
