@@ -66,8 +66,18 @@ body {
   float: left;
 }
 
-@media screen and (max-width:1080px) {
-  #afb1, #afb2, #afb3 {
+@media screen and (max-width:750px) {
+  #afb1, #afb2, #afb3, .tekstblok1, .tekstblok2 {
     width:100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width:500px) and (min-width:0px){
+  #afb1, #afb2, #afb3, .tekstblok1, .tekstblok2 {
+    width:100%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
