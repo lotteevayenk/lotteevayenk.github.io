@@ -66,8 +66,8 @@ body {
   float: left;
 }
 
-@media screen and (max-width:400px) {
-  .left, .main, .right {
+@media screen and (max-width:1080px) {
+  #afb1, #afb2, #afb3 {
     width:100%;
   }
 }
