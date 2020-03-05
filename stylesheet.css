@@ -37,17 +37,21 @@ body {
 
 /*BODY*/
 .tekstblok1 {
+  margin-top: 25px;
   display: block;
-  width: 40%;
+  width: 60%;
   float: left;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 10%;
 }
 
 .tekstblok2 {
+  margin-top: 25px;
   display: block;
-  width: 50%;
-  float: right;
-  padding: 20px;
+  width: 33.3%;
+  float: left;
+  padding: 10px;
+  background-color: hotpink;
 }
 
 #afb1 {
@@ -72,8 +76,8 @@ body {
 }
 
 #afb4 {
-  width: 65%;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 @media screen and (max-width:750px) {
