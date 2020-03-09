@@ -8,12 +8,18 @@
   </head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
+    <div class="logo en shit">
+      <p>De Receptenvinder</p>
+    </div>
     <div class="navbar">
       <ul class="navig">
         <li><a href="index.html"><b>Home</b></a></li>
         <li><a href="mainpage.php">Receptenvinder</a></li>
         <li><a href="database/phpliteadmin.php">SQL</a></li>
       </ul>
+    </div>
+    <div class="strookje">
+      <a>strook</a>
     </div>
     <div class="topnav">
       <input type="text" placeholder="Search..">
