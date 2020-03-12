@@ -11,13 +11,14 @@
     <div class="logobalk">
       <p>De Receptenvinder</p>
     </div>
-    <div class="navbar">
-      <ul class="navig">
+    <div id="navbar">
+      <ul>
         <li><a href="index.html"><b>Home</b></a></li>
         <li><a href="mainpage.php">Receptenvinder</a></li>
         <li><a href="database/phpliteadmin.php">SQL</a></li>
       </ul>
     </div>
+  <div class="content">
     <img id="afb1" src="img/taart1.jpeg">
     <img id="afb2" src="img/muffin1.jpeg">
     <img id="afb3" src="img/noodles1.jpeg">
@@ -34,20 +35,23 @@
       <p>Tidepods, Sterf. Geschikt voor kinderen.</p>
       <img id="afb4" src="img/tidepods.jpeg">
     </div>
+    <footer class="footer">
+      <a>dot</br>dot</br>dot</br>dot</br>dot</br>dot</br>dot</br>dot</br></a>
+    </footer>
+  </div>
+  </body>
+  <script>
+    window.onscroll = function() {myFunction()};
 
-    <script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function() {scrollFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "30px 10px";
-        document.getElementById("logo").style.fontSize = "25px";
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
       } else {
-        document.getElementById("navbar").style.padding = "80px 10px";
-        document.getElementById("logo").style.fontSize = "35px";
+        navbar.classList.remove("sticky");
       }
     }
-    </script>
-  </body>
+  </script>
 </html>
