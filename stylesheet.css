@@ -35,6 +35,16 @@ body {
   padding-top: 74px;
 }
 
+.content {
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+#navbar {
+  z-index: 2;
+}
+
 #navbar ul {
   background-color: maroon;
   list-style-type: none;
@@ -81,10 +91,11 @@ body {
 }
 
 .footer {
-  float: left;
-  display: block;
   width: 100%;
-  background-color: blue;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 #afb1 {
